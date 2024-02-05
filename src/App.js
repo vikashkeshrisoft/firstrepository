@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-
+  console.log("env=>", process.env.REACT_APP_API_BASE_URL);
+	
   return (
     <div className="App">
       <h2>Great work :)</h2>
